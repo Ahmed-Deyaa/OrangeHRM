@@ -3,6 +3,7 @@ Feature: Users Management
   As a system admin
   I want to load users page successfully
 
+  @smokeTest
   Scenario Outline: open users page successfully
 
     Given user navigates to orange website <url>
